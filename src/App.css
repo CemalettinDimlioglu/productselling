@@ -167,4 +167,30 @@ header .nav-link:hover {
     color: #fff;
 }
 /* FOOTER ////////////////////////////////////////////////////////////// */
-f 
+footer {
+    padding: 40px 0 100px 0;
+}
+footer .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 10px;
+}
+footer .nav-link:hover {
+    color: #fff;
+}
+footer .nav-link.active {
+    color: #fff;
+    border-bottom: 1px solid #666;
+}
+footer .copyrights {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    margin-top: 10px;
+}
+footer .copyrights a {
+    color: rgba(255, 255, 255, 0.75);
+}
+footer .copyrights a:hover {
+    color: #fff;
+}
