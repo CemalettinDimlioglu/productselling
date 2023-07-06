@@ -20,6 +20,10 @@ const About = () => {
           <h2>What We Do?</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nesciunt.</p>
         </div>
+        <div className='col-lg-4' >
+          <h2>Our Mission</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nesciunt.</p>
+        </div>
       </div>
     </div>
     </main>
