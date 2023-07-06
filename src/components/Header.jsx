@@ -9,7 +9,7 @@
          <div className="d-flex justify-content-between align-items-center">
            <div className="logo">
              <Link to="/" className="brand">
-               WSP
+               J.D.W.S.
              </Link>
            </div>
            <nav className="nav nav-pills">
