@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import PRODUCTS from "../data";
 
 const Products = () => {
+  const navigate = useNavigate()
   return (
     <main>
       <div className="pg-header">
@@ -30,12 +31,18 @@ const Products = () => {
             return (
               <div className="col-lg-4" key={product.id} >
                 <div className="card" >
-                  <div className="img-wrap" >
+                  <div className="img-wrap" typeof="button"
+                  onClick={() =>navigate(`/`)}
+                   >
                     <img src={product.image} alt="" />
                   </div>
                   <div className="card-body" >
                     <h5 className="card-title" >{product.name}</h5>
                     <p className="card-text" >{product.details}</p>
+                    <div className="d-flex justify-content-between aign-items-center" >
+                      <span>Price:<strong className="price" >{product.price}</strong></span>
+  <Link to={`/products/${product.id}`}className="btn btn-primary btn-sm">Detail</Link>
+                    </div>
                   </div>
                 </div>
               </div>
