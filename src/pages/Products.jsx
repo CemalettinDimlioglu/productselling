@@ -31,7 +31,7 @@ const Products = () => {
             return (
               <div className="col-lg-4" key={product.id} >
                 <div className="card" >
-                  <div className="img-wrap" typeof="button"
+                  <div className="img-wrap" type="button"
                   onClick={() =>navigate(`/`)}
                    >
                     <img src={product.image} alt="" />
