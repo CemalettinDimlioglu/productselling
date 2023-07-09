@@ -1,3 +1,28 @@
+## Project Skeleton
+```
+|
+|----readme.md
+|----public
+        |----index.html
+|----src
+        |----images
+        |----components
+              |----Footer.jsx
+              |----Header.jsx
+        |----pages
+              |----About.jsx
+              |----Error.jsx
+              |----Home.jsx
+              |----Products.jsx
+              |----SingleProduct.jsx
+        |----App.css
+        |----App.js
+        |----index.js
+        |----data.js
+```
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
